@@ -52,5 +52,5 @@ if (pinAnswer.pin === myPin) {
      }
 }
 else {
-    console.log("Pin is Incorrect, Try Again!");
+    console.log("Pin is Incorrect, Try Again");
 }

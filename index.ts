@@ -7,7 +7,7 @@ let myBalance = 500000;
 let myPin = 12345;
 
 
-// print welcome message
+ //print welcome message
 console.log("Welcome to code with AyazKhan - ATM MACHINE");
 
 let pinAnswer = await inquirer.prompt([

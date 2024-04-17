@@ -1,8 +1,9 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 // initialize user balance and pin code
 let myBalance = 500000;
 let myPin = 12345;
-// print welcome message
+//print welcome message
 console.log("Welcome to code with AyazKhan - ATM MACHINE");
 let pinAnswer = await inquirer.prompt([
     {
@@ -44,5 +45,5 @@ if (pinAnswer.pin === myPin) {
     }
 }
 else {
-    console.log("Pin is Incorrect, Try Again!");
+    console.log("Pin is Incorrect, Try Again");
 }
